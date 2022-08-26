@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - StartBuilding
+  - AddScore
+  - Bridge
+  - Destroyer
+  - Block
+  - Building Sound
   layers:
   - Default
   - TransparentFX

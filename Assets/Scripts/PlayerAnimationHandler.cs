@@ -19,6 +19,8 @@ public class PlayerAnimationHandler : MonoBehaviour {
                 gameManager.UpdateScore();
                 break;
             case "StartBuilding":
+                if(!gameManager.PlayerCanCollide) return;
+                
                 playerAnimator.SetBool(IsMoving, false);
                 gameManager.IsBuilding = true;
                 break;
